@@ -29,7 +29,7 @@ $$\gamma = e^{-\pi/4} \approx 0.456$$
 
 To keep the workspace clean, files are organized as follows:
 
-``text
+~~~text
 Quantum-Resurrection-Protocol/
 ├── src/                  # Core Python algorithms (The Engines)
 │   ├── dynamic_causal_repair.py   # "The Surgeon" (Active Repair)
@@ -42,8 +42,7 @@ Quantum-Resurrection-Protocol/
 │   ├── Lazarus_repair_verdict.png
 │   └── vacuum_geometric_lock.pdf
 └── README.md             # You are here
-
-markdown
+~~~
 
 > **⚠️ Note on Raw Data:**
 >
@@ -59,11 +58,7 @@ This experiment demonstrates Active Thermodynamic Reversal. Using IBM's dynamic 
 
 ### Visual Verdict
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/wingcg-blip/Quantum-Resurrection-Protocol/main/figures/Lazarus_repair_verdict.png" width="800" alt="Lazarus Verdict" />
-</div>
-
-<br>
+![Lazarus Verdict](figures/Lazarus_repair_verdict.png)
 
 *Figure 1: Probability distribution showing the split between Natural Survivors and Resurrected States.*
 
@@ -88,7 +83,7 @@ This experiment demonstrates Active Thermodynamic Reversal. Using IBM's dynamic 
 ## 🚀 Usage
 To replicate the analysis using the provided evidence files:
 
-bash
+~~~bash
 # Clone the repository
 git clone [https://github.com/wingcg-blip/Quantum-Resurrection-Protocol.git](https://github.com/wingcg-blip/Quantum-Resurrection-Protocol.git)
 
@@ -100,18 +95,22 @@ python src/vacuum_geometric_lock.py
 
 # Run the Lazarus Surgeon Analysis (Active Regime)
 python src/dynamic_causal_repair.py
-🔮 Future Applications
-This protocol serves as the theoretical foundation for Dissipation Engineering in next-generation hardware.
+~~~
 
-Project Zigzag-025: For the implementation of this mechanism in Graphene Nanoribbons (Room Temperature Transport), please refer to our sister repository:
+---
 
-[Link will be added upon release]
+## 🔮 Future Applications
+This protocol serves as the theoretical foundation for **Dissipation Engineering** in next-generation hardware.
 
-📜 Citation
+* **Project Zigzag-025:** For the implementation of this mechanism in **Graphene Nanoribbons (Room Temperature Transport)**, please refer to our sister repository:
+    * *[Link will be added upon release]*
+
+---
+
+## 📜 Citation
 If you use this code or data, please cite the Zenodo record:
 
-代码段
-
+~~~bibtex
 @dataset{wang_2026_resurrection,
   author       = {Fujia Wang},
   title        = {0.25 Protocol: Quantum Information Resurrection},
@@ -120,3 +119,7 @@ If you use this code or data, please cite the Zenodo record:
   doi          = {10.5281/zenodo.18172250},
   url          = {[https://zenodo.org/records/18172250](https://zenodo.org/records/18172250)}
 }
+~~~
+
+---
+© 2026 Fujia Wang. Licensed under the Apache License 2.0.
