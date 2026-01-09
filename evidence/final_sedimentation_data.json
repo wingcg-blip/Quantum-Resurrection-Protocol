@@ -1,0 +1,38 @@
+[
+    {
+        "gamma": 0.25,
+        "depth": 30,
+        "survival_rate": 0.427246,
+        "shots": 8192
+    },
+    {
+        "gamma": 0.25,
+        "depth": 55,
+        "survival_rate": 0.340576,
+        "shots": 8192
+    },
+    {
+        "gamma": 0.25,
+        "depth": 80,
+        "survival_rate": 0.336792,
+        "shots": 8192
+    },
+    {
+        "gamma": 0.314,
+        "depth": 30,
+        "survival_rate": 0.377686,
+        "shots": 8192
+    },
+    {
+        "gamma": 0.314,
+        "depth": 55,
+        "survival_rate": 0.3396,
+        "shots": 8192
+    },
+    {
+        "gamma": 0.314,
+        "depth": 80,
+        "survival_rate": 0.268066,
+        "shots": 8192
+    }
+]
