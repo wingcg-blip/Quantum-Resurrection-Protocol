@@ -26,7 +26,7 @@ $$\gamma = e^{-\pi/4} \approx 0.456$$
 ---
 
 ## 📂 Repository Structure
-
+``txt
 To keep the workspace clean, files are organized as follows:
 
 Quantum-Resurrection-Protocol/
@@ -85,7 +85,7 @@ This experiment demonstrates Active Thermodynamic Reversal. Using IBM's dynamic 
 ## 🚀 Usage
 To replicate the analysis using the provided evidence files:
 
-```bash
+bash
 # Clone the repository
 git clone [https://github.com/wingcg-blip/Quantum-Resurrection-Protocol.git](https://github.com/wingcg-blip/Quantum-Resurrection-Protocol.git)
 
