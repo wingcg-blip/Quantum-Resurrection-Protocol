@@ -26,9 +26,10 @@ $$\gamma = e^{-\pi/4} \approx 0.456$$
 ---
 
 ## 📂 Repository Structure
-``txt
+
 To keep the workspace clean, files are organized as follows:
 
+```text
 Quantum-Resurrection-Protocol/
 ├── src/                  # Core Python algorithms (The Engines)
 │   ├── dynamic_causal_repair.py   # "The Surgeon" (Active Repair)
@@ -41,7 +42,9 @@ Quantum-Resurrection-Protocol/
 │   ├── Lazarus_repair_verdict.png
 │   └── vacuum_geometric_lock.pdf
 └── README.md             # You are here
+
 markdown
+
 > **⚠️ Note on Raw Data:**
 >
 > Due to file size limits, the massive raw data packets (48k shots, .zip files) are hosted on our persistent archive.
