@@ -23,6 +23,7 @@ $$\gamma = e^{-\pi/4} \approx 0.456$$
 1.  **The Vacuum Singularity ($|000\rangle$):** Passive geometric protection acting as an absolute shield (**0.4590** survival rate).
 2.  **The Lazarus Effect ($|111\rangle$):** Active entropy reversal using dynamic circuits, achieving **93.0% fidelity** in a "dead" environment.
 
+---
 
 ## 📂 Repository Structure
 
@@ -41,13 +42,15 @@ Quantum-Resurrection-Protocol/
 │   ├── Lazarus_repair_verdict.png
 │   └── vacuum_geometric_lock.pdf
 └── README.md             # You are here
+```markdown
+> **⚠️ Note on Raw Data:**
+>
+> Due to file size limits, the massive raw data packets (48k shots, .zip files) are hosted on our persistent archive.
+> 👉 **[Download Raw Forensic Data from Zenodo](https://zenodo.org/records/18172250)**
 
-⚠️ Note on Raw Data:
-
-Due to file size limits, the massive raw data packets (48k shots, .zip files) are hosted on our persistent archive.👉 Download Raw Forensic Data from Zenodo https://zenodo.org/records/18172250
+---
 
 ## ⚡ The Lazarus Experiment (Active Resurrection)
-
 *Module: `src/dynamic_causal_repair.py`*
 
 This experiment demonstrates Active Thermodynamic Reversal. Using IBM's dynamic circuits (mid-circuit measurement + feed-forward), we detect in-flight entropy and apply a geometric inverse phase.
@@ -62,14 +65,26 @@ This experiment demonstrates Active Thermodynamic Reversal. Using IBM's dynamic 
 * **State 010 (46.5%):** Resurrected (Active Dynamic Repair)
 * **Total Fidelity:** **93.0%** (vs ~12.5% random thermalization)
 
-⚖️ Control Experiment: 
+---
 
-The A/B TestTo rule out hardware artifacts, we conducted a blind A/B test on IBM Fez.Experiment IDProtocol StatusResultInterpretationJob d5f3...ON91.45% SyncMacroscopic Phase Locking ✅Job d5f4...OFF50.10% RandomStandard Decoherence ❌The code for this verification is available in src/control_broken_link_test.py.
+## ⚖️ Control Experiment: The A/B Test
+*To rule out hardware artifacts, we conducted a blind A/B test on IBM Fez.*
 
-🚀 UsageTo replicate the analysis using the provided evidence files:
+| Experiment ID | Protocol Status | Result | Interpretation |
+| :--- | :--- | :--- | :--- |
+| **Job `d5f3...`** | **ON** | **91.45% Sync** | Macroscopic Phase Locking ✅ |
+| **Job `d5f4...`** | **OFF** | **50.10% Random** | Standard Decoherence ❌ |
 
-Bash# Clone the repository
-git clone [https://github.com/YourUsername/Quantum-Resurrection-Protocol.git](https://github.com/YourUsername/Quantum-Resurrection-Protocol.git)
+> The code for this verification is available in `src/control_broken_link_test.py`.
+
+---
+
+## 🚀 Usage
+To replicate the analysis using the provided evidence files:
+
+```bash
+# Clone the repository
+git clone [https://github.com/wingcg-blip/Quantum-Resurrection-Protocol.git](https://github.com/wingcg-blip/Quantum-Resurrection-Protocol.git)
 
 # Install dependencies
 pip install qiskit numpy matplotlib scipy
@@ -79,12 +94,17 @@ python src/vacuum_geometric_lock.py
 
 # Run the Lazarus Surgeon Analysis (Active Regime)
 python src/dynamic_causal_repair.py
+🔮 Future Applications
+This protocol serves as the theoretical foundation for Dissipation Engineering in next-generation hardware.
 
-🔮 Future ApplicationsThis protocol serves as the theoretical foundation for Dissipation Engineering in next-generation hardware.Project Zigzag-025:
+Project Zigzag-025: For the implementation of this mechanism in Graphene Nanoribbons (Room Temperature Transport), please refer to our sister repository:
 
- For the implementation of this mechanism in Graphene Nanoribbons (Room Temperature Transport), please refer to our sister repository:[Link will be added upon release]
+[Link will be added upon release]
 
-📜 CitationIf you use this code or data, please cite the Zenodo record:
+📜 Citation
+If you use this code or data, please cite the Zenodo record:
+
+代码段
 
 @dataset{wang_2026_resurrection,
   author       = {Fujia Wang},
@@ -94,5 +114,3 @@ python src/dynamic_causal_repair.py
   doi          = {10.5281/zenodo.18172250},
   url          = {[https://zenodo.org/records/18172250](https://zenodo.org/records/18172250)}
 }
-
-© 2026 Fujia Wang. Licensed under the Apache License 2.0.
