@@ -23,7 +23,6 @@ $$\gamma = e^{-\pi/4} \approx 0.456$$
 1.  **The Vacuum Singularity ($|000\rangle$):** Passive geometric protection acting as an absolute shield (**0.4590** survival rate).
 2.  **The Lazarus Effect ($|111\rangle$):** Active entropy reversal using dynamic circuits, achieving **93.0% fidelity** in a "dead" environment.
 
----
 
 ## 📂 Repository Structure
 
@@ -48,7 +47,7 @@ Quantum-Resurrection-Protocol/
 Due to file size limits, the massive raw data packets (48k shots, .zip files) are hosted on our persistent archive.👉 Download Raw Forensic Data from Zenodo https://zenodo.org/records/18172250
 
 ⚡ The Lazarus Experiment (Active Resurrection)Module:
-
+![Lazarus Verdict](figures/Lazarus_repair_verdict.png)
  src/dynamic_causal_repair.pyThis experiment demonstrates Active Thermodynamic Reversal. Using IBM's 
 dynamic circuits (mid-circuit measurement + feed-forward), we detect in-flight entropy and apply a geometric inverse phase.Visual VerdictFigure 1: Probability distribution showing the split between Natural Survivors and Resurrected States.State 000 (46.5%): Survivors (Passive Geometric Protection)State 010 (46.5%): Resurrected (Active Dynamic Repair)Total Fidelity: 93.0% (vs ~12.5% random thermalization)
 
