@@ -29,7 +29,7 @@ $$\gamma = e^{-\pi/4} \approx 0.456$$
 
 To keep the workspace clean, files are organized as follows:
 
-`text
+``text
 Quantum-Resurrection-Protocol/
 ├── src/                  # Core Python algorithms (The Engines)
 │   ├── dynamic_causal_repair.py   # "The Surgeon" (Active Repair)
