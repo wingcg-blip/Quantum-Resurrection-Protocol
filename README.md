@@ -57,7 +57,11 @@ This experiment demonstrates Active Thermodynamic Reversal. Using IBM's dynamic 
 
 ### Visual Verdict
 
-![Lazarus Verdict](figures/Lazarus_repair_verdict.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/wingcg-blip/Quantum-Resurrection-Protocol/main/figures/Lazarus_repair_verdict.png" width="800" alt="Lazarus Verdict" />
+</div>
+
+<br>
 
 *Figure 1: Probability distribution showing the split between Natural Survivors and Resurrected States.*
 
